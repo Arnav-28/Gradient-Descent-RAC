@@ -29,13 +29,13 @@ Gradient descent is a key component of this project, used for fitting a quadrati
 <br/>learningRate: A small value that controls the step size during optimization.
 <br/>The gradient descent process iteratively updates the coefficients a, b, and c to minimize the error between the predicted and actual data points. This process is repeated for a specified number of iterations (in this case, 200 iterations).
 <br/>
-Prediction: <img src="./Figure_1.png" alt="Regression" /> <br/>
+Points Prediction: <img src="./Figure_1.png" alt="Regression" /> <br/>
 Next 5 points are represented by green color
 ### Visualization and Animation
 The code utilizes the matplotlib library to create a visualization of the dataset and the fitted quadratic curve. Additionally, it generates an animation to display the curve's progression over time. The animation helps visualize how the quadratic curve fits the data points during the gradient descent optimization process.
 <br/>The animation is created using FuncAnimation from matplotlib.animation, and it shows the gradual convergence of the quadratic curve to the optimal fit.
 
-<br/>Prediction: <img src="./quadraticAnimation.gif" alt="Prediction animation" /> 
+<br/>Curve Prediction: <img src="./quadraticAnimation.gif" alt="Prediction animation" /> 
 ### Status: <span style="color: green;">Completed</span>
 ## Conclusion
 This project demonstrates the use of gradient descent to fit a quadratic curve to a dataset and creates an animated visualization to understand the optimization process. The code can be adapted to different datasets and regression techniques for various predictive tasks.
