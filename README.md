@@ -14,7 +14,6 @@ Write a python code to fit a line on the given points using gradient descent alg
 4,2.5
 5,7.8
 6,10
-<br/>
 <br/>Prediction: <img src="./reg_t3.png" alt="Best fitted curve for 4 point" /> 
 ### Status : Completed
 
@@ -29,7 +28,8 @@ Gradient descent is a key component of this project, used for fitting a quadrati
 a, b, and c: The coefficients of the quadratic equation.
 learningRate: A small value that controls the step size during optimization.
 The gradient descent process iteratively updates the coefficients a, b, and c to minimize the error between the predicted and actual data points. This process is repeated for a specified number of iterations (in this case, 200 iterations).
-Prediction: <img src="./Figure_1.png" alt="Regression" /> 
+<br/>
+Prediction: <img src="./Figure_1.png" alt="Regression" /> <br/>
 Next 5 points are represented by green color
 ### Visualization and Animation
 The code utilizes the matplotlib library to create a visualization of the dataset and the fitted quadratic curve. Additionally, it generates an animation to display the curve's progression over time. The animation helps visualize how the quadratic curve fits the data points during the gradient descent optimization process.
