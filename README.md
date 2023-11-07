@@ -25,15 +25,15 @@ This task contains Python code that generates 50-60 random x, y coordinate point
 The code generates a synthetic dataset of 50-60 data points with random x and y coordinates. The y-coordinate is calculated as a quadratic function of x, with some added random noise. The dataset simulates the position of an object in a 1D plane over time.
 ### Gradient Descent
 Gradient descent is a key component of this project, used for fitting a quadratic curve to the dataset. The objective is to find the best-fitting quadratic equation of the form y = ax^2 + bx + c that minimizes the error between the predicted values and the actual data points. The key parameters for gradient descent are as follows:
-a, b, and c: The coefficients of the quadratic equation.
-learningRate: A small value that controls the step size during optimization.
-The gradient descent process iteratively updates the coefficients a, b, and c to minimize the error between the predicted and actual data points. This process is repeated for a specified number of iterations (in this case, 200 iterations).
+<br/>a, b, and c: The coefficients of the quadratic equation.
+<br/>learningRate: A small value that controls the step size during optimization.
+<br/>The gradient descent process iteratively updates the coefficients a, b, and c to minimize the error between the predicted and actual data points. This process is repeated for a specified number of iterations (in this case, 200 iterations).
 <br/>
 Prediction: <img src="./Figure_1.png" alt="Regression" /> <br/>
 Next 5 points are represented by green color
 ### Visualization and Animation
 The code utilizes the matplotlib library to create a visualization of the dataset and the fitted quadratic curve. Additionally, it generates an animation to display the curve's progression over time. The animation helps visualize how the quadratic curve fits the data points during the gradient descent optimization process.
-The animation is created using FuncAnimation from matplotlib.animation, and it shows the gradual convergence of the quadratic curve to the optimal fit.
+<br/>The animation is created using FuncAnimation from matplotlib.animation, and it shows the gradual convergence of the quadratic curve to the optimal fit.
 
 <br/>Prediction: <img src="./quadraticAnimation.gif" alt="Prediction animation" /> 
 ### Status: <span style="color: green;">Completed</span>
