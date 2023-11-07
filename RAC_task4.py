@@ -39,7 +39,6 @@ plt.scatter(next_x_points, next_y_points, color='green')
 plt.plot(x_curve, y_curve, color='red', label='Quadratic Curve')
 
 # Animation
-
 fig, ax = plt.subplots()
 ax.set_xlim(0, 25) 
 ax.set_ylim(0, 1000)
