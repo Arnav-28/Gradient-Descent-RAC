@@ -10,11 +10,11 @@ Gradient descent is an optimization technique used to find the minimum of a func
 
 ## Task 3 :
 Write a python code to fit a line on the given points using gradient descent algorithm
-3,1
-4,2.5
-5,7.8
-6,10
-<br/>Prediction: <img src="./reg_t3.png" alt="Best fitted curve for 4 point" /> 
+<br/>3,1
+<br/>4,2.5
+<br/>5,7.8
+<br/>6,10
+<br/>Best fit curve: <img src="./reg_t3.png" alt="Best fitted curve for 4 point" /> 
 ### Status : Completed
 
 ## Task 4 :
