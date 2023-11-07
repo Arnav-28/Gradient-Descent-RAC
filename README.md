@@ -18,7 +18,7 @@ Write a python code to fit a line on the given points using gradient descent alg
 ### Status : Completed
 
 ## Task 4 :
-This repository contains Python code that generates 50-60 random x, y coordinate points, where x represents a timestamp and y represents the position in a 1D plane. We use linear or polynomial regression to predict the next 5 points in the path. The code utilizes the matplotlib library to create an animation that visualizes the entire path over time.
+This task contains Python code that generates 50-60 random x, y coordinate points, where x represents a timestamp and y represents the position in a 1D plane. We use linear or polynomial regression to predict the next 5 points in the path. The code utilizes the matplotlib library to create an animation that visualizes the entire path over time.
 
 ## Steps to Complete the Task
 ### Dataset Generation
